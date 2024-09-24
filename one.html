@@ -3,81 +3,146 @@
     <title>ur not supposed to be here</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <style>
-        body{
-            padding: 50px;
-            padding-right: 50px;
-        }
-        .a{
-            box-shadow: red 0px 0px 0px 2px inset, white 10px -10px 0px -3px, blue 10px -10px, white 20px -20px 0px -3px, red 20px -20px, white 30px -30px 0px -3px, blue 30px -30px, white 40px -40px 0px -3px, red 40px -40px;
-            max-width: 100%;
-            min-height: 25%;
-            padding: 30px;
-            border-radius: 0px;
-            color: black;
-            font-family: "Roboto", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-        .c587467 {
-            font-family: "Roboto", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-            max-width: 100%;
-            min-height: 25%;
-            margin: auto;
-            overflow-y: auto;
-            overflow-x: hidden;
-            padding: 30px;
-          border-radius: 25px;
-        }
-        .hone{
-            text-align: center;
-            font-size: 26px;
-            color: navy;
-            margin-bottom: 10px;
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-        .hthree{
-            text-align:center;
-        }
-        .pe{
-            text-align: center;
-        }
-        p#countdown {
-            color: red;
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 5px;
-        }
-        .port{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-            font-family: "Roboto", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            max-width: 100%;
-            min-height: 25%;
-            border-radius: 25px;
-            padding: 30px;
-            color: black;
-            background-color: #dbb89a;
-        }
-        .port img {
-            max-width: 200px;
-            margin-left: 20px; 
-        }
-        .ral{
-            text-align: right;
-            margin-left: auto;
-            vertical-align: middle;
-        }
-    </style>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+            <style>
+                body{
+                    padding: 50px;
+                    padding-right: 50px;
+                }
+                .a{
+                    box-shadow: red 0px 0px 0px 2px inset, white 10px -10px 0px -3px, blue 10px -10px, white 20px -20px 0px -3px, red 20px -20px, white 30px -30px 0px -3px, blue 30px -30px, white 40px -40px 0px -3px, red 40px -40px;
+                    max-width: 100%;
+                    min-height: 25%;
+                    padding: 30px;
+                    border-radius: 0px;
+                    color: black;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+                .c587467 {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                    max-width: 100%;
+                    min-height: 25%;
+                    margin: auto;
+                    overflow-y: auto;
+                    overflow-x: hidden;
+                    padding: 30px;
+                    border-radius: 25px;
+                }
+                .hone{
+                    text-align: center;
+                    font-size: 26px;
+                    color: navy;
+                    margin-bottom: 10px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+                .hthree{
+                    text-align:center;
+                }
+                .pe{
+                    text-align: center;
+                }
+                p#countdown {
+                    color: red;
+                    font-size: 24px;
+                    font-weight: bold;
+                    margin-top: 5px;
+                }
+                .port{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    max-width: 100%;
+                    min-height: 25%;
+                    border-radius: 25px;
+                    padding: 30px;
+                    color: black;
+                    background-color: #dbb89a;
+                }
+                .port img {
+                    max-width: 200px;
+                    margin-left: 20px;
+                }
+                .ral{
+                    text-align: right;
+                    margin-left: auto;
+                    vertical-align: middle;
+                }
+            </style>
+            
+            <script>
+                        var gradYear = 2025
+                        var countdownDate = new Date(gradYear, 4, 24).getTime();
+                        var daysOff = [
+                            [gradYear-1, 8, 4],
+                            [gradYear-1, 8, 18],
+                            [gradYear-1, 9, 9],
+                            [gradYear-1, 9, 10],
+                            [gradYear-1, 9, 11],
+                            [gradYear-1, 9, 12],
+                            [gradYear-1, 9, 13],
+                            [gradYear-1, 10, 11],
+                            [gradYear-1, 10, 20],
+                            [gradYear-1, 10, 21],
+                            [gradYear-1, 10, 22],
+                            [gradYear-1, 10, 23],
+                            [gradYear-1, 10, 24],
+                            [gradYear-1, 11, 25],
+                            [gradYear-1, 11, 26],
+                            [gradYear-1, 11, 27],
+                            [gradYear-1, 11, 28],
+                            [gradYear-1, 11, 29],
+                            [gradYear, 0, 1],
+                            [gradYear, 0, 2],
+                            [gradYear, 0, 3],
+                            [gradYear, 0, 4],
+                            [gradYear, 0, 5],
+                            [gradYear, 0, 8],
+                            [gradYear, 0, 15],
+                            [gradYear, 1, 19],
+                            [gradYear, 1, 20],
+                            [gradYear, 2, 11],
+                            [gradYear, 2, 12],
+                            [gradYear, 2, 13],
+                            [gradYear, 2, 14],
+                            [gradYear, 2, 15],
+                            [gradYear, 2, 29],
+                            [gradYear, 3, 22]
+                        ];
+                       
+                        var countdownTimer = setInterval(function() {
+                            var now = new Date().getTime();
+                            var t = 0;
+                            var temp;
+                            for(let i = 0; i < daysOff.length; i++){
+                                temp = new Date(daysOff[i][0], daysOff[i][1], daysOff[i][2]).getTime();
+                                if(now < temp){
+                                    t++;
+                                }
+                            }
+                            var distance = countdownDate - now + (1000 * 60 * 60 * 24);
+               
+                            var daysRemaining = Math.ceil(distance / (1000 * 60 * 60 * 24) - 1);
+                            var weekendsRemaining = Math.floor(daysRemaining / 7);
+                            var remainingWeekdays = daysRemaining - (weekendsRemaining * 2) - t;
+               
+                            document.getElementById("countdown").innerHTML = remainingWeekdays + " days";
+               
+                            if (distance < 0) {
+                                clearInterval(countdownTimer);
+                                document.getElementById("countdown").innerHTML = "Congratulations, Class of "+gradYear+"!";
+                            }
+                        }, 1000);
+                    </script>
 </head>
 <body>
     <div class="c587467">
